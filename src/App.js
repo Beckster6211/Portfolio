@@ -1,6 +1,7 @@
 //import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
+import Home from "./components/home/home";
 import Calendar from "./components/nasaPOTD/calendar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -8,16 +9,18 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <nav id="nav">
-          <Link to="/">Space Birthday Picture</Link>
-        </nav> */}
+        <nav id="nav">
+          <Link to="/">Home</Link>
+          &nbsp; &nbsp;
+          <Link to="/potd">Space Picture</Link>
+        </nav>
         <Switch>
-          <Route path="/">
+          <Route path="/potd">
             <Calendar />
           </Route>
-          {/* <Route path="/">
+          <Route path="/">
             <Home />
-          </Route> */}
+          </Route>
         </Switch>
       </div>
     </Router>
