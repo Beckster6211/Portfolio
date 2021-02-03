@@ -13,6 +13,8 @@ function App() {
           <Link to="/">Home</Link>
           &nbsp; &nbsp;
           <Link to="/potd">Space Picture</Link>
+          &nbsp; &nbsp;
+          {/* <Link to="https://plusmentor.netlify.app/">Plus Mentor</Link> */}
         </nav>
         <Switch>
           <Route path="/potd">
