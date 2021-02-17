@@ -26,7 +26,7 @@ function Loves() {
         <summary class="subHeading">Quackers</summary>
         <p>
           Quackers is my teddy, yes I am a fully grown adult and have a teddy,
-          you don't like it, I don't care.
+          you don't like it, I don't care (he is legendary in Jones family).
         </p>
       </details>
     </div>
