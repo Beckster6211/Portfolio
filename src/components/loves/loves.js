@@ -6,7 +6,10 @@ function Loves() {
       <h3 class="heading">Loves of my life</h3>
       <details>
         <summary class="subHeading">Finley</summary>
-        <p>My nephew Finley, I get my cuddles when I can.</p>
+        <p>
+          My nephew Finley, I get my cuddles when I can (hes at popular and cute
+          age).
+        </p>
       </details>
       <details>
         <summary class="subHeading"> Cotton</summary>
