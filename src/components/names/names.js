@@ -18,6 +18,8 @@ function Names() {
             dancefloor).
           </p>
         </details>
+        <br></br>
+        <br></br>
         <details>
           <summary>NintendoGirl</summary>
           <p class="text">
@@ -48,6 +50,8 @@ function Names() {
             guard' (I wish I knew his name).
           </p>
         </details>
+        <br></br>
+        <br></br>
         <details>
           <summary>B</summary>
           <p class="text">
@@ -55,6 +59,8 @@ function Names() {
             still respond.
           </p>
         </details>
+        <br></br>
+        <br></br>
         <details>
           <summary>Auntie Becca</summary>
           <p class="text">
