@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import Names from "../names/names";
+import Hobbies from "../hobbies/hobbies";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         know me...(or if I am in trouble).
       </p>
       <Names />
+      <Hobbies />
     </div>
   );
 }
