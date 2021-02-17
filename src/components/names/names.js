@@ -5,9 +5,9 @@ function Names() {
     <div>
       <h3 class="heading">Nicknames:</h3>
       <p class="subHeading">I have a few nicknames in my family:</p>
-      <div class="subHeading">
+      <div>
         <details>
-          <summary>Beckster </summary>
+          <summary class="subHeading">Beckster </summary>
           <p class="text">
             The story of Beckster, is from my cousin, as he was growing up had a
             speech impediment and couldn't say 'Becky', not sure why it's quite
@@ -18,10 +18,8 @@ function Names() {
             dancefloor).
           </p>
         </details>
-        <br></br>
-        <br></br>
         <details>
-          <summary>NintendoGirl</summary>
+          <summary class="subHeading">NintendoGirl</summary>
           <p class="text">
             I have always loved Nintendo products prefering handheld consoles to
             ones on the television, I have two brothers who are gamers one older
@@ -50,19 +48,15 @@ function Names() {
             guard' (I wish I knew his name).
           </p>
         </details>
-        <br></br>
-        <br></br>
         <details>
-          <summary>B</summary>
+          <summary class="subHeading">B</summary>
           <p class="text">
             Sometimes my older brother just simplifies my name to just B. I
             still respond.
           </p>
         </details>
-        <br></br>
-        <br></br>
         <details>
-          <summary>Auntie Becca</summary>
+          <summary class="subHeading">Auntie Becca</summary>
           <p class="text">
             My nephew can't talk yet but maybe auntie Becca (think that would be
             easy for baby learning to speak...).
