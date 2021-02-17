@@ -1,0 +1,27 @@
+.picture {
+  width: auto;
+  height: 150px;
+  margin: 5%;
+}
+
+.heading {
+  margin: 2%;
+  text-align: left;
+}
+
+.subHeading {
+  margin: 2%;
+  text-align: left;
+}
+
+.name {
+  display: inline;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  /* padding: 1%; */
+  display: inline;
+}

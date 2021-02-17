@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function PictureOfTheDay({ date }) {
-  const [picture, setPicture] = useState({});
+  //const [picture, setPicture] = useState({});
   const [testPicture, setTestPicture] = useState({});
 
   useEffect(() => {
@@ -23,8 +23,6 @@ function PictureOfTheDay({ date }) {
 
   return (
     <div>
-      {/* <img src={picture?.url} width={`auto`} height={`500px`}></img> */}
-      {/* <p>{picture?.explanation}</p> */}
       <h1 className="imageTitle">{testPicture?.title}</h1>
       <img src={testPicture?.url} width={"auto"} height={"500px"}></img>
       <p className="imageTitle">{testPicture?.explanation}</p>
