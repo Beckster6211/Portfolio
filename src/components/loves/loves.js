@@ -12,7 +12,7 @@ function Loves() {
         </p>
       </details>
       <details>
-        <summary class="subHeading"> Cotton</summary>
+        <summary class="subHeading">Cotton</summary>
         <p>
           My cat, annoying thing sheds fur everywhere and steals my bed but i
           love him

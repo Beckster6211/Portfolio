@@ -17,7 +17,7 @@ function Hobbies() {
         <br></br>
         <br></br>
         <details>
-          <summary class="subHeading">Stop Motion: </summary>
+          <summary>Stop Motion: </summary>
           <p>
             Stop motion animation: repeatingly photographing a physical model(s)
             with small amounts slightly different from the one before that when
@@ -31,9 +31,7 @@ function Hobbies() {
           </details>
         </details>
         <details>
-          <summary class="subHeading">
-            Hand Drawn FPS (Frames Per Second)
-          </summary>
+          <summary>Hand Drawn FPS (Frames Per Second)</summary>
           <p>
             Hand drawn FPS (Frames Per Second): drawings done on paper/screen
             each one slightly different to one perform that when ran together
@@ -54,7 +52,7 @@ function Hobbies() {
           </details>
         </details>
         <details>
-          <summary class="subHeading">Computer Generated</summary>
+          <summary>Computer Generated</summary>
           <p>
             Computer generated: using computers to create the images, usually
             involes having to layer the images (like the human body, skeleton,
@@ -78,7 +76,7 @@ function Hobbies() {
           </details>
         </details>
         <details>
-          <summary class="subHeading">Revolutionary new way</summary>
+          <summary>Revolutionary new way</summary>
           <p>
             Sumptuous stop motion: new styles of animation like Stop motion but
             instead of physically having to move models models are moved
@@ -93,6 +91,7 @@ function Hobbies() {
             <h4>Amazing!!!!!</h4>
           </details>
         </details>
+        <br></br>
         <h5 class="text">Everyone has a favourite. Think what's yours?...</h5>
       </details>
       <details>
