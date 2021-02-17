@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Names from "../names/names";
 import Hobbies from "../hobbies/hobbies";
+import Loves from "../loves/loves";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       </p>
       <Names />
       <Hobbies />
+      <Loves />
     </div>
   );
 }
