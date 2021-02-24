@@ -47,8 +47,8 @@ function SpaceProject() {
         I'm to old though... 😭)
         <br></br>
         <br></br>
-        There is also a couple of extra cool things like icon nasa pictures and
-        also links to youtube clips of the moon landing.
+        There is also a couple of extra cool things like iconic nasa pictures
+        and also links to youtube clips of the moon landing.
       </p>
     </div>
   );

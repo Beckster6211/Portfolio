@@ -1,3 +1,7 @@
+.home {
+  background-color: white;
+}
+
 .picture {
   width: auto;
   height: 110px;
@@ -18,7 +22,7 @@
   display: inline;
 }
 
-.text {
+.homeText {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   text-align: center;

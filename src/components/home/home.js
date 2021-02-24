@@ -6,7 +6,7 @@ import Loves from "../loves/loves";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <div>
         <a
           className="aboutMe"
@@ -37,13 +37,13 @@ function Home() {
       />
       <img className="picture" src="./Capture.PNG" alt="SOC avatar" />
       <h3 className="heading">Me</h3>
-      <p className="text">
+      <p className=" homeText">
         My full name is Rebecca Louise Jones, I prefer to be called Becky. The
         only times I am Rebecca is for offical reasons or by people that don't
         know me...(or if I am in trouble).
       </p>
       <br></br>
-      <p className="text">
+      <p className="homeText">
         This is abit about me and some projects that have done you are able to
         see in the navbar.
       </p>
