@@ -1,28 +1,31 @@
-//import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import Home from "./components/home/home";
-import Calendar from "./components/nasaPOTD/calendar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./components/header/header";
+import SpaceProject from "./components/nasaPOTD/projectSpace";
 
 function App() {
   return (
     <div>
       <Header />
-
       <Router>
         <div className="App">
           <nav id="nav">
             <Link to="/">Home</Link>
             &nbsp; &nbsp;
-            <Link to="/potd">Space Picture</Link>
+            <Link to="/PlusMentor">PlusMentor</Link>
             &nbsp; &nbsp;
-            {/* <Link to="https://plusmentor.netlify.app/">Plus Mentor</Link> */}
+            <Link to="/EngageMate">EngageMate</Link>
+            &nbsp; &nbsp;
+            <Link to="/potd">Project Space</Link>
+            &nbsp; &nbsp;
+            <Link to="myFavourite">Project Favourites</Link>
+            &nbsp; &nbsp;
           </nav>
           <Switch>
             <Route path="/potd">
-              <Calendar />
+              <SpaceProject />
             </Route>
             <Route path="/">
               <Home />
