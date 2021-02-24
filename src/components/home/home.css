@@ -1,11 +1,15 @@
+.home {
+  background-color: white;
+}
+
 .picture {
   width: auto;
-  height: 150px;
-  margin: 5%;
+  height: 110px;
+  margin: 1%;
 }
 
 .heading {
-  margin: 2%;
+  margin: 1%;
   text-align: left;
 }
 
@@ -18,10 +22,21 @@
   display: inline;
 }
 
-.text {
+.homeText {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   text-align: center;
   /* padding: 1%; */
   display: inline;
+}
+
+.aboutMe {
+  display: inline;
+  margin: 1%;
+  padding: 1%;
+}
+
+.icon {
+  width: 90px;
+  height: auto;
 }
