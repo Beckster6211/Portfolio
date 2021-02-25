@@ -8,9 +8,10 @@ function SpaceProject() {
       <img
         className="byPhotos"
         src="./logo-51c754388b198e5bbb0d08a971ebbfa2.png"
+        alt="SoC logo"
       />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img className="byPhotos" src="./Capture.PNG" />
+      <img className="byPhotos" src="./Capture.PNG" alt="SoC avatar" />
       <p className="text">
         A project made that I originally did with some teammates on the School
         of Code as a hackathon that redid on my own to practice some of the
@@ -23,14 +24,18 @@ function SpaceProject() {
       </p>
       <br></br>
       <br></br>
-      <a href="https://blj-nasa-potd.netlify.app/" target="_blank">
-        <img className="sitePictures" src="./2.PNG" />
+      <a
+        href="https://blj-nasa-potd.netlify.app/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="sitePictures" src="./potd1.PNG" alt="ptodPicture1" />
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <img className="sitePictures" src="./1.PNG" />
+        <img className="sitePictures" src="./potd2.PNG" alt="ptodPicture2" />
       </a>
       <h5>How To Use:</h5>
       <p className="text">
-        (Just clicked one of the pictures to go the site in a new window)
+        (Just clicked one of the pictures to go to the site in a new window)
         <br></br>
         <br></br>
         On the site you will be presented with a calendar drop down, using this

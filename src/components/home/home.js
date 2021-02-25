@@ -12,10 +12,12 @@ function Home() {
           className="aboutMe"
           href="https://github.com/Beckster6211"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             className="icon"
-            src="https://res.cloudinary.com/practicaldev/image/fetch/s--i_sb3chq--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/fk0849hvg2rt13bpqhjy.jpg"
+            src="./fk0849hvg2rt13bpqhjy.webp"
+            alt="github logo"
           />
         </a>
         <h1 className="aboutMe">Becky Jones</h1>
@@ -23,10 +25,12 @@ function Home() {
           className="aboutMe"
           href="https://www.linkedin.com/in/rebecca-jones-b3b5601b6/"
           target="_blank"
+          rel="noreferrer"
         >
           <img
             className="icon"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1280px-LinkedIn_Logo.svg.png"
+            src="./1280px-LinkedIn_Logo.svg.png"
+            alt="linkedIn logo"
           />
         </a>
       </div>
