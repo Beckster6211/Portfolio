@@ -15,10 +15,20 @@
   height: auto;
 }
 
-.plusMentorPhoto {
-  width: 31%;
+.plusMentorOpeningPage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
   height: auto;
-  display: inline-block;
+  padding: 1%;
+}
+
+.plusMentorPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   padding: 1%;
 }
 
@@ -28,4 +38,11 @@
   text-align: center;
   display: inline-block;
   color: black;
+}
+
+.plusMentorPage {
+  color: black;
+  font-size: 3vh;
+  font-weight: bold;
+  text-decoration: underline;
 }
