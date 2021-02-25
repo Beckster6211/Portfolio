@@ -1,0 +1,28 @@
+.plusMentor {
+  background-color: cornsilk;
+}
+
+.byPhotos {
+  width: 150px;
+  height: auto;
+}
+
+.plusMentorLogo {
+  width: 50vw;
+  height: auto;
+}
+
+.plusMentorPhoto {
+  width: 31%;
+  height: auto;
+  display: inline-block;
+  padding: 1%;
+}
+
+.text {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  color: black;
+}

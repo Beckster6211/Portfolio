@@ -12,6 +12,7 @@
   height: 50px;
   padding: 1%;
   margin: 1%;
+  display: inline;
 }
 
 .rainbows {
@@ -19,4 +20,10 @@
   height: 50px;
   padding: 1%;
   margin: 1%;
+  display: inline;
+}
+
+.nhs {
+  display: inline;
+  vertical-align: top;
 }
