@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./components/header/header";
 import SpaceProject from "./components/nasaPOTD/projectSpace";
 import PlusMentor from "./components/plusMentor/plusMentor";
+import EngageMate from "./components/engageMate/engageMate";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
             &nbsp; &nbsp;
           </nav>
           <Switch>
+            <Route path="/EngageMate">
+              <EngageMate />
+            </Route>
             <Route path="/PlusMentor">
               <PlusMentor />
             </Route>
