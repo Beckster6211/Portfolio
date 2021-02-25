@@ -12,12 +12,12 @@ function SpaceProject() {
       />
       &nbsp;&nbsp;&nbsp;&nbsp;
       <img className="byPhotos" src="./Capture.PNG" alt="SoC avatar" />
-      <p className="text">
+      <p className="spaceText">
         A project made that I originally did with some teammates on the School
         of Code as a hackathon that redid on my own to practice some of the
         concepts that were used.
       </p>
-      <p className="text">
+      <p className="spaceText">
         Nasa has a program called Astronomy picture of the day. This app lets
         you see the pictures and information about it and with the calendar
         provided you can select a specific date.
@@ -34,7 +34,7 @@ function SpaceProject() {
         <img className="sitePictures" src="./potd2.PNG" alt="ptodPicture2" />
       </a>
       <h5>How To Use:</h5>
-      <p className="text">
+      <p className="spaceText">
         (Just clicked one of the pictures to go to the site in a new window)
         <br></br>
         <br></br>
