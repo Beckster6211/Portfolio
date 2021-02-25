@@ -140,7 +140,7 @@ function PlusMentor() {
         alt="plusMento Talking Points Page"
         title="plusMentor Talking Points Page"
       />
-      <p className="plusMentorPage">Your Sesssions</p>
+      <p className="plusMentorPage">Your Sessions</p>
       <p className="plusMentorText">
         The your sessions page is designed to help track what you discuss and
         when like a journal. The page has some fillable input fields on it as
