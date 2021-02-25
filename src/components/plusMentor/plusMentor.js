@@ -12,20 +12,20 @@ function PlusMentor() {
       />
       <br></br>
       <img
-        className="byPhotos"
+        className="plusmentorByPhotos"
         src="./logo-51c754388b198e5bbb0d08a971ebbfa2.png"
         alt="SoC logo"
       />
-      <p className="text">
+      <p className="plusMentorText">
         During the School of Code were given projects to do, testing our
         abilities, stretching our skills, developing our problem solving and
         helping with working together in groups.
       </p>
-      <p className="text">
+      <p className="plusMentorText">
         A project we had midway through the course was to enhance the mentoring
         experience. We were placed into groups of four and we were given a week
         to tackle this problem. From it we created PlusMentor to help with
-        bridging the difficulty of intial contact (as for some this can be
+        bridging the difficulty of initial contact (as for some this can be
         overwhelming).
       </p>
       <a
@@ -64,8 +64,12 @@ function PlusMentor() {
           alt="plusMentor Your Sessions Page"
         />
       </a>
-      <h5>How to use</h5>
-      <p className="text">
+      <h5>
+        How to use:
+        <br></br>
+        (Just clicked one of the pictures to go to the site in a new window)
+      </h5>
+      <p className="plusMentorText">
         To access page log in to the app, if you have an account press the `Log
         In` button and input your email and password.
         <br></br>
@@ -94,7 +98,6 @@ function PlusMentor() {
         back to them.
         <br></br>
       </p>
-      <p>Additional info...</p>
     </div>
   );
 }

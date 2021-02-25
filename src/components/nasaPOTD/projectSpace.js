@@ -6,18 +6,18 @@ function SpaceProject() {
     <div className="projectSpace">
       <h1 className="mainHeading">🌌 Project Space Photo 📷</h1>
       <img
-        className="byPhotos"
+        className="spaceByPhotos"
         src="./logo-51c754388b198e5bbb0d08a971ebbfa2.png"
         alt="SoC logo"
       />
       &nbsp;&nbsp;&nbsp;&nbsp;
-      <img className="byPhotos" src="./Capture.PNG" alt="SoC avatar" />
-      <p className="text">
+      <img className="spaceByPhotos" src="./Capture.PNG" alt="SoC avatar" />
+      <p className="spaceText">
         A project made that I originally did with some teammates on the School
         of Code as a hackathon that redid on my own to practice some of the
         concepts that were used.
       </p>
-      <p className="text">
+      <p className="spaceText">
         Nasa has a program called Astronomy picture of the day. This app lets
         you see the pictures and information about it and with the calendar
         provided you can select a specific date.
@@ -33,11 +33,12 @@ function SpaceProject() {
         &nbsp;&nbsp;&nbsp;&nbsp;
         <img className="sitePictures" src="./potd2.PNG" alt="ptodPicture2" />
       </a>
-      <h5>How To Use:</h5>
-      <p className="text">
+      <h5>
+        How To Use:
+        <br></br>
         (Just clicked one of the pictures to go to the site in a new window)
-        <br></br>
-        <br></br>
+      </h5>
+      <p className="spaceText">
         On the site you will be presented with a calendar drop down, using this
         you can select a date. Dates shown monthly with an up and down arrow (on
         the top right hand side) allowing you to toggle through the months, you

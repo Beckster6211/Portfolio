@@ -1,0 +1,73 @@
+.engageMate {
+  background-color: palevioletred;
+}
+
+.engageMateLogo {
+  width: 50vw;
+  height: auto;
+  padding: 3%;
+}
+
+.engageMateByPhotos {
+  width: 150px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.engageMateOpeningPage {
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  padding: 1%;
+}
+
+.featureMenuPhoto {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  padding: 1%;
+}
+
+.engageMateExample {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding: 1%;
+}
+
+.engageMateText {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  color: black;
+}
+
+.featureHeading {
+  color: purple;
+  font-size: 3vh;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.speakerInstructions {
+  color: blue;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+
+.participantInstructions {
+  color: yellow;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+
+.bothInstructions {
+  color: green;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
