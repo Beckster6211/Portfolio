@@ -31,12 +31,17 @@
 }
 
 .aboutMe {
+  font-size: 90%;
   display: inline;
   margin: 1%;
   padding: 1%;
+  vertical-align: middle;
 }
 
 .icon {
-  width: 90px;
+  margin: 1%;
+  padding: 1%;
+  width: 10%;
   height: auto;
+  display: inline;
 }

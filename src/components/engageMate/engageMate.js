@@ -43,11 +43,20 @@ function EngageMate() {
           title="EngageMate Opening Page"
         />
       </a>
-      <h5>
+      <h3>
         How to use:
         <br></br>
-        (Just click the picture to go to the site in a new window)
-      </h5>
+        (Just click the picture or the link to go to the site in a new window)
+        <br></br>
+        <a
+          href="https://engagemate.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <br></br>
+          https://engagemate.netlify.app
+        </a>
+      </h3>
       <img
         className="featureMenuPhoto"
         src="./skfm.PNG"

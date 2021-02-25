@@ -33,11 +33,20 @@ function SpaceProject() {
         &nbsp;&nbsp;&nbsp;&nbsp;
         <img className="sitePictures" src="./potd2.PNG" alt="ptodPicture2" />
       </a>
-      <h5>
-        How To Use:
+      <h3>
+        How to use:
         <br></br>
-        (Just clicked one of the pictures to go to the site in a new window)
-      </h5>
+        (Just click the pictures or the link to go to the site in a new window)
+        <br></br>
+        <a
+          href="https://blj-nasa-potd.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <br></br>
+          https://blj-nasa-potd.netlify.app/
+        </a>
+      </h3>
       <p className="spaceText">
         On the site you will be presented with a calendar drop down, using this
         you can select a date. Dates shown monthly with an up and down arrow (on
