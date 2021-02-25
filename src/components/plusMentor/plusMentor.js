@@ -64,7 +64,11 @@ function PlusMentor() {
           alt="plusMentor Your Sessions Page"
         />
       </a>
-      <h5>How to use</h5>
+      <h5>
+        How to use:
+        <br></br>
+        (Just clicked one of the pictures to go to the site in a new window)
+      </h5>
       <p className="plusMentorText">
         To access page log in to the app, if you have an account press the `Log
         In` button and input your email and password.
