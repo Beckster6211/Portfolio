@@ -4,6 +4,7 @@ import Home from "./components/home/home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./components/header/header";
 import SpaceProject from "./components/nasaPOTD/projectSpace";
+import PlusMentor from "./components/plusMentor/plusMentor";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
             &nbsp; &nbsp;
           </nav>
           <Switch>
+            <Route path="/PlusMentor">
+              <PlusMentor />
+            </Route>
             <Route path="/potd">
               <SpaceProject />
             </Route>
