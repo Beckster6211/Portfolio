@@ -2,9 +2,12 @@
   background-color: cornsilk;
 }
 
-.byPhotos {
+.plusmentorByPhotos {
   width: 150px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .plusMentorLogo {

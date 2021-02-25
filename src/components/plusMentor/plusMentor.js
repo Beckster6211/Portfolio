@@ -12,7 +12,7 @@ function PlusMentor() {
       />
       <br></br>
       <img
-        className="byPhotos"
+        className="plusmentorByPhotos"
         src="./logo-51c754388b198e5bbb0d08a971ebbfa2.png"
         alt="SoC logo"
       />
@@ -25,7 +25,7 @@ function PlusMentor() {
         A project we had midway through the course was to enhance the mentoring
         experience. We were placed into groups of four and we were given a week
         to tackle this problem. From it we created PlusMentor to help with
-        bridging the difficulty of intial contact (as for some this can be
+        bridging the difficulty of initial contact (as for some this can be
         overwhelming).
       </p>
       <a
