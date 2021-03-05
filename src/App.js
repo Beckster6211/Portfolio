@@ -6,6 +6,7 @@ import Header from "./components/header/header";
 import SpaceProject from "./components/nasaPOTD/projectSpace";
 import PlusMentor from "./components/plusMentor/plusMentor";
 import EngageMate from "./components/engageMate/engageMate";
+import Favourites from "./components/favourites/favourites";
 
 function App() {
   return (
@@ -22,10 +23,13 @@ function App() {
             &nbsp; &nbsp;
             <Link to="/potd">Project Space</Link>
             &nbsp; &nbsp;
-            <Link to="myFavourite">Project Favourites</Link>
+            <Link to="/myFavourite">Project Favourites</Link>
             &nbsp; &nbsp;
           </nav>
           <Switch>
+            <Route path="/myFavourite">
+              <Favourites />
+            </Route>
             <Route path="/EngageMate">
               <EngageMate />
             </Route>

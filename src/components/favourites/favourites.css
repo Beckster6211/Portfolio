@@ -1,0 +1,24 @@
+.favourites {
+  background-color: tomato;
+}
+
+.favouritesByPhoto {
+  width: 150px;
+  height: auto;
+  display: inline;
+  padding: 1%;
+}
+
+.favouritesText {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  color: black;
+}
+
+.favouriteSitePicture {
+  display: inline;
+  width: 50%;
+  height: auto;
+}
