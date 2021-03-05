@@ -1,5 +1,9 @@
 .favourites {
-  background-color: tomato;
+  /* background-color: tomato; */
+  background-image: url("./gold-silver-bronze-trophy-cup-goblet-podium-pedestal-isolated-white-1st-2nd-3rd-place_180264-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .favouritesByPhoto {
@@ -9,12 +13,12 @@
   padding: 1%;
 }
 
-.favouritesText {
+.favouriteText {
   margin: 1%;
   padding: 1%;
   text-align: center;
-  display: inline-block;
   color: black;
+  font-size: 1em;
 }
 
 .favouriteSitePicture {

@@ -51,7 +51,9 @@ function Favourites() {
       <p className="favouriteText">🔧It's not completely finished yet...🔨</p>
 
       <p className="favouriteText">Still under construction 👷</p>
-      <p>👀 You can have a look but be gentle please 🥺</p>
+      <p className="favouriteText">
+        👀 You can have a look but be gentle please 🥺
+      </p>
       <br></br>
     </div>
   );
