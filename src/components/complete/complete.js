@@ -1,7 +1,5 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
-// import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-// import Tooltip from "react-bootstrap/Tooltip";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import EngageMate from "../engageMate/engageMate";
 import PlusMentor from "../plusMentor/plusMentor";
@@ -9,7 +7,6 @@ import SpaceProject from "../nasaPOTD/projectSpace";
 function Complete() {
   return (
     <div>
-      {/* <h1>hi</h1> */}
       <Router>
         <ReactBootStrap.Navbar
           collapseOnSelect
@@ -17,9 +14,11 @@ function Complete() {
           bg="warning"
           variant="light"
         >
-          <ReactBootStrap.Navbar.Brand>
-            Complete Projects
-          </ReactBootStrap.Navbar.Brand>
+          <Link to="/complete">
+            <ReactBootStrap.Navbar.Brand>
+              Complete Projects
+            </ReactBootStrap.Navbar.Brand>
+          </Link>
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
             <ReactBootStrap.Nav className="mr-auto">
@@ -52,6 +51,18 @@ function Complete() {
             <SpaceProject />
           </Route>
         </Switch>
+        <div>
+          <h2>Complete projects</h2>
+          <p>
+            The ultimate aim is to move as many things over from the work in
+            progress section to here. 😁
+          </p>
+          <p>They may need some small tweaking 🤏</p>
+          <p>
+            (My portfolio itself is still a work in progress really and I hope
+            it stays that way) 😉
+          </p>
+        </div>
       </Router>
     </div>
   );
