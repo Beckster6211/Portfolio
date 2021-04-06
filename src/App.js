@@ -7,12 +7,13 @@ import SpaceProject from "./components/nasaPOTD/projectSpace";
 import PlusMentor from "./components/plusMentor/plusMentor";
 import EngageMate from "./components/engageMate/engageMate";
 import Favourites from "./components/favourites/favourites";
-
+import Nav from "./components/nav/nav";
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <Router>
+      <Nav />
+      {/* <Router>
         <div className="App">
           <nav id="nav">
             <Link to="/">Home</Link>
@@ -44,8 +45,8 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </Router>
-      <Header />
+      </Router> */}
+      {/* <Header /> */}
     </div>
   );
 }
