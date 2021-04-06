@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Home from "../home/home";
 import Complete from "../complete/complete";
+import WorkingOnIt from "../workingOnIt/workingOnIt";
 
 function Nav() {
   //   const renderTooltip = (props) => (
@@ -109,7 +110,9 @@ function Nav() {
           <Route path="/why">
             <PandaTrex />
           </Route> */}
-          <Route path="/workinprogress">{/* <WorkingOnIt /> */}</Route>
+          <Route path="/workinprogress">
+            <WorkingOnIt />
+          </Route>
           <Route path="/complete">
             <Complete />
           </Route>
