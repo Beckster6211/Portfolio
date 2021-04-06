@@ -1,20 +1,12 @@
 #header {
   /* height: 100px; */
-  background-color: cornflowerblue;
+  background-color: white;
   text-align: center;
-  color: white;
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .clapHands {
-  width: 8%;
-  height: auto;
-  padding: 1%;
-  margin: 1%;
-  display: inline;
-}
-
-.rainbows {
   width: 10%;
   height: auto;
   padding: 1%;
@@ -22,8 +14,38 @@
   display: inline;
 }
 
+.rainbows {
+  width: 14%;
+  height: auto;
+  padding: 1%;
+  margin: 1%;
+  display: inline;
+}
+
 .nhs {
-  font-size: 90%;
+  font-size: 2rem;
   display: inline;
   vertical-align: middle;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .clapHands {
+    width: 10%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    display: inline;
+  }
+  .nhs {
+    font-size: 1rem;
+    display: inline;
+    vertical-align: middle;
+  }
+  .rainbows {
+    width: 10%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    display: inline;
+  }
 }

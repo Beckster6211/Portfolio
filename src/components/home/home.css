@@ -1,5 +1,5 @@
 .home {
-  background-color: white;
+  background-color: cornflowerblue;
   text-align: center;
 }
 
@@ -27,7 +27,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   text-align: center;
-  /* padding: 1%; */
+  padding: 1%;
+  /* margin: 2%; */
   display: inline;
 }
 

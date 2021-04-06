@@ -49,7 +49,7 @@ function Home() {
       <br></br>
       <p className="homeText">
         This is abit about me and some projects that have done you are able to
-        see in the navbar.
+        see through the buttons in the navbar.
       </p>
       <Names />
       <Hobbies />
