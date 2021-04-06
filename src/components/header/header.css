@@ -49,3 +49,25 @@
     display: inline;
   }
 }
+
+@media only screen and (max-width: 650px) and (orientation: landscape) {
+  .clapHands {
+    width: 9%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    display: inline;
+  }
+  .nhs {
+    font-size: 1rem;
+    display: inline;
+    vertical-align: middle;
+  }
+  .rainbows {
+    width: 10%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    display: inline;
+  }
+}

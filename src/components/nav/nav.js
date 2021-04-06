@@ -9,11 +9,6 @@ import Complete from "../complete/complete";
 import WorkingOnIt from "../workingOnIt/workingOnIt";
 
 function Nav() {
-  //   const renderTooltip = (props) => (
-  //     <Tooltip id="button-tooltip" {...props}>
-  //       Home
-  //     </Tooltip>
-  //   );
   return (
     <Router>
       <div>
@@ -24,13 +19,7 @@ function Nav() {
           variant="light"
         >
           <Link to="/">
-            {/* <OverlayTrigger
-              placement="right"
-              delay={{ show: 250, hide: 400 }}
-              overlay={renderTooltip}
-            > */}
             <ReactBootStrap.Navbar.Brand>Home</ReactBootStrap.Navbar.Brand>
-            {/* </OverlayTrigger> */}
           </Link>
           {/* <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav"> */}
           <Link to="/complete">
