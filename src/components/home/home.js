@@ -35,11 +35,11 @@ function Home() {
         </a>
       </div>
       <img
-        className="picture"
+        className="pictureWasp"
         src="./Becky Jones SoC Head shot photo.jpg"
         alt="Me"
       />
-      <img className="picture" src="./Capture.PNG" alt="SOC avatar" />
+      <img className="pictureAvatar" src="./Capture.PNG" alt="SOC avatar" />
       <h3 className="heading">Me</h3>
       <p className=" homeText">
         My full name is Rebecca Louise Jones, I prefer to be called Becky. The
@@ -49,12 +49,12 @@ function Home() {
       <br></br>
       <p className="homeText">
         This is abit about me and some projects that have done you are able to
-        see in the navbar.
+        see through the buttons in the navbar.
       </p>
       <Names />
       <Hobbies />
       <Loves />
-      <p>Made by Becky (A working progress...)</p>
+      <p className="homeText">Made by Becky (A working progress...)</p>
     </div>
   );
 }

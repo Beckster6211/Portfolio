@@ -14,7 +14,7 @@ function Loves() {
       <details>
         <summary class="subHeading">Cotton</summary>
         <p>
-          My cat, annoying thing sheds fur everywhere and steals my bed but i
+          My cat, annoying thing sheds fur everywhere and steals my bed but I
           love him
         </p>
       </details>
