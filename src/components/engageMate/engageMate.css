@@ -3,13 +3,13 @@
 }
 
 .engageMateLogo {
-  width: 50vw;
+  width: 70%;
   height: auto;
   padding: 3%;
 }
 
 .engageMateByPhotos {
-  width: 10%;
+  width: 20%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +42,7 @@
   padding: 1%;
   text-align: center;
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .featureHeading {
@@ -57,7 +57,7 @@
   margin: 1%;
   padding: 1%;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .participantInstructions {
@@ -65,7 +65,7 @@
   margin: 1%;
   padding: 1%;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .bothInstructions {
@@ -73,11 +73,86 @@
   margin: 1%;
   padding: 1%;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .instructionColours {
   display: flex;
   align-content: flex-start;
   justify-content: space-evenly;
+  font-size: 1rem;
+}
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .engageMateLogo {
+    width: 70%;
+    height: auto;
+    padding: 3%;
+  }
+  .engageMateText {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    color: black;
+    font-size: 0.8rem;
+  }
+  .speakerInstructions {
+    color: blue;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .participantInstructions {
+    color: yellow;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .bothInstructions {
+    color: green;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .linkHeading {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .featureHeading {
+    color: purple;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .engageMateOpeningPage {
+    width: 85%;
+    height: auto;
+    display: inline-block;
+    padding: 1%;
+  }
+  .featureMenuPhoto {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    padding: 1%;
+  }
+  .engageMateExample {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    padding: 1%;
+  }
 }
