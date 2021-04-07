@@ -14,32 +14,32 @@ function Hobbies() {
           making just one second of what you see on screen. I like all kinds on
           animation and have favourites of each kind:
         </p>
-        <br></br>
-        <br></br>
         <details>
-          <summary>Stop Motion: </summary>
-          <p>
+          <summary className="subHeading">Stop Motion: </summary>
+          <p className="text">
             Stop motion animation: repeatingly photographing a physical model(s)
             with small amounts slightly different from the one before that when
             ran together give the effect of movement.
           </p>
           <details>
             <summary class="subHeading">Aardman Animation</summary>
-            <p>
+            <p className="text">
               Wallace and Gromit, A Grand Day Out <br></br>Chicken Run
             </p>
           </details>
         </details>
         <details>
-          <summary>Hand Drawn FPS (Frames Per Second)</summary>
-          <p>
+          <summary className="subHeading">
+            Hand Drawn FPS (Frames Per Second)
+          </summary>
+          <p className="text">
             Hand drawn FPS (Frames Per Second): drawings done on paper/screen
             each one slightly different to one perform that when ran together
             appear as motion (e.g.flipbook).
           </p>
           <details>
             <summary class="subHeading">Disney</summary>
-            <p>
+            <p className="text">
               Mickey Mouse (Steamboat Willie, 1<sup>st</sup> ever cartoon 24 FPS
               with matching sounds and perfect motion, also Mickey Mouse debut
               to the public. (Everybody should watch it.)
@@ -48,19 +48,19 @@ function Hobbies() {
           </details>
           <details>
             <summary class="subHeading">MGN</summary>
-            <p>Tom and Jerry, life with Tom my favourite</p>
+            <p className="text">Tom and Jerry, Life With Tom my favourite</p>
           </details>
         </details>
         <details>
-          <summary>Computer Generated</summary>
-          <p>
+          <summary className="subHeading">Computer Generated</summary>
+          <p className="text">
             Computer generated: using computers to create the images, usually
             involes having to layer the images (like the human body, skeleton,
             muscles, organs, skin, features).
           </p>
           <details>
             <summary class="subHeading">Pixar (now Disney Pixar)</summary>
-            <p>
+            <p className="text">
               Luxo Jr (He is the little lamp that bounces on the Pixar logo and
               flattens the "I". ) His cartoon is sooo cute (another one worth a
               watch).
@@ -69,22 +69,22 @@ function Hobbies() {
           </details>
           <details>
             <summary class="subHeading">Dreamworks</summary>
-            <p>
+            <p className="text">
               Flushed Away, made in partnership between Aardman animation and
               Dreamworks
             </p>
           </details>
         </details>
         <details>
-          <summary>Revolutionary new way</summary>
-          <p>
+          <summary className="subHeading">Revolutionary new way</summary>
+          <p className="text">
             Sumptuous stop motion: new styles of animation like Stop motion but
             instead of physically having to move models models are moved
             electronically, its like all of the above combined together.
           </p>
           <details>
             <summary class="subHeading">Laika</summary>
-            <p>
+            <p className="text">
               Kubo and the Two Strings, uses puppets on wires controlled by
               computers to create motion.
             </p>
@@ -92,11 +92,14 @@ function Hobbies() {
           </details>
         </details>
         <br></br>
-        <h5 class="text">Everyone has a favourite. Think what's yours?...</h5>
+        <h5 class="text">
+          Everyone has a favourite. Think what's yours?... (Message me if you
+          like, I'd be interested to know)
+        </h5>
       </details>
       <details>
         <summary class="subHeading">Beano</summary>
-        <p>
+        <p className="text">
           Something I collect is The Beano annual.
           <br></br>
           It started 2004 ish? as my dad would buy the Beano annual for me for
@@ -122,7 +125,7 @@ function Hobbies() {
       </details>
       <details>
         <summary class="subHeading">Rugby Union</summary>
-        <p>
+        <p className="text">
           I have become a fan rugby union. Started as my cousin started playing
           rugby for his local team (Camp Hill) and we would go and watch to
           support him. I would have <strong>no idea</strong> what I would be

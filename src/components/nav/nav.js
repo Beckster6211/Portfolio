@@ -3,6 +3,7 @@ import * as ReactBootStrap from "react-bootstrap";
 // import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 // import Tooltip from "react-bootstrap/Tooltip";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./nav.css";
 import Button from "react-bootstrap/Button";
 import Home from "../home/home";
 import Complete from "../complete/complete";
@@ -11,7 +12,7 @@ import WorkingOnIt from "../workingOnIt/workingOnIt";
 function Nav() {
   return (
     <Router>
-      <div>
+      <div className="navbar">
         <ReactBootStrap.Navbar
           collapseOnSelect
           expand="xl"
@@ -19,16 +20,26 @@ function Nav() {
           variant="light"
         >
           <Link to="/">
-            <ReactBootStrap.Navbar.Brand>Home</ReactBootStrap.Navbar.Brand>
+            <ReactBootStrap.Navbar.Brand className="homeWord">
+              Home
+            </ReactBootStrap.Navbar.Brand>
           </Link>
           {/* <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav"> */}
           <Link to="/complete">
-            <Button href="/complete" variant="primary">
+            <Button
+              className="completeButton"
+              href="/complete"
+              variant="primary"
+            >
               Complete ✔️
             </Button>
           </Link>{" "}
           <Link to="/workinprogress">
-            <Button href="/workinprogress" variant="danger">
+            <Button
+              className="workingButton"
+              href="/workinprogress"
+              variant="danger"
+            >
               Work in progress 👷
             </Button>
           </Link>
