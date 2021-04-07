@@ -2,12 +2,12 @@ import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./working.css";
+import CompleteWorkingPage from "./index";
 import Favourites from "../favourites/favourites";
 
 function WorkingOnIt() {
   return (
     <div>
-      {/* <h1>hi</h1> */}
       <Router>
         <ReactBootStrap.Navbar
           collapseOnSelect
@@ -15,7 +15,7 @@ function WorkingOnIt() {
           bg="secondary"
           variant="light"
         >
-          <Link to="workinprogress">
+          <Link to="/workinprogress">
             <ReactBootStrap.Navbar.Brand className="workingNavbar">
               Improving/fixing...
             </ReactBootStrap.Navbar.Brand>
@@ -28,16 +28,6 @@ function WorkingOnIt() {
                   Favourites
                 </ReactBootStrap.Nav.Link>
               </Link>
-              {/* <Link to="/plusmentor">
-                <ReactBootStrap.Nav.Link href="/plusmentor">
-                  PlusMentor
-                </ReactBootStrap.Nav.Link>
-              </Link>
-              <Link to="/nasapotd">
-                <ReactBootStrap.Nav.Link href="/nasapotd">
-                  Nasa POTD
-                </ReactBootStrap.Nav.Link>
-              </Link> */}
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
@@ -45,22 +35,10 @@ function WorkingOnIt() {
           <Route path="/favourite">
             <Favourites />
           </Route>
-          {/* <Route path="/plusmentor"><PlusMentor /></Route> */}
-          {/* <Route path="/nasapotd"><SpaceProject /></Route> */}
+          <Route path="/workinprogress">
+            <CompleteWorkingPage />
+          </Route>
         </Switch>
-        <div>
-          <h2>Not quite there yet...</h2>
-          <p>
-            The goal is to have lots of things in here that I can go back to as
-            I gain experience and knowledge 😁 then move to complete
-          </p>
-          <p>💂‍♀️ "No project gets left behind" 💂‍♀️</p>
-          <p>
-            (Hopefully this will get longer and then shorter, a yoyo approach
-            🪀)
-          </p>
-          <h2>The Biggest Work in Progress - My Portfolio 👍</h2>
-        </div>
       </Router>
     </div>
   );

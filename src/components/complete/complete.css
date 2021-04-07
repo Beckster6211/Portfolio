@@ -20,11 +20,11 @@
   height: auto;
 }
 
-@media only screen and (max-width: 550px) and (orientation: portrait) {
+/* @media only screen and (max-width: 550px) and (orientation: portrait) {
   .completeHomePage {
     min-height: 100vh;
     background-image: url("./image.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-}
+} */
