@@ -1,6 +1,8 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./complete.css";
+import CompleteHomePage from "./index";
 import EngageMate from "../engageMate/engageMate";
 import PlusMentor from "../plusMentor/plusMentor";
 import SpaceProject from "../nasaPOTD/projectSpace";
@@ -15,7 +17,7 @@ function Complete() {
           variant="light"
         >
           <Link to="/complete">
-            <ReactBootStrap.Navbar.Brand>
+            <ReactBootStrap.Navbar.Brand className="completeNavbar">
               Complete Projects
             </ReactBootStrap.Navbar.Brand>
           </Link>
@@ -50,19 +52,10 @@ function Complete() {
           <Route path="/nasapotd">
             <SpaceProject />
           </Route>
+          <Route path="/complete">
+            <CompleteHomePage />
+          </Route>
         </Switch>
-        <div>
-          <h2>Complete projects</h2>
-          <p>
-            The ultimate aim is to move as many things over from the work in
-            progress section to here. 😁
-          </p>
-          <p>They may need some small tweaking 🤏</p>
-          <p>
-            (My portfolio itself is still a work in progress really and I hope
-            it stays that way) 😉
-          </p>
-        </div>
       </Router>
     </div>
   );

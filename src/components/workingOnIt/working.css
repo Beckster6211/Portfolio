@@ -1,0 +1,19 @@
+.completeWorkingPage {
+  min-height: 100vh;
+  background-image: url("./lego-3625194_1280.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.workingNavbar {
+  font-size: 1rem;
+}
+
+.workingText {
+  font-weight: 500;
+}
+
+.workingImage {
+  width: 40%;
+  height: auto;
+}

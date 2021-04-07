@@ -49,7 +49,8 @@ function Home() {
       <br></br>
       <p className="homeText">
         This is abit about me and some projects that have done you are able to
-        see through the buttons in the navbar.
+        see through the buttons in the navbar. (You can skip this page if you
+        like)
       </p>
       <Names />
       <Hobbies />
