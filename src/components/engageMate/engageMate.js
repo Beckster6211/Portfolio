@@ -32,11 +32,13 @@ function EngageMate() {
         understanding.
       </p>
       <div className="instructionColours">
-        <p className="speakerInstructions">Speaker instructions in blue</p>
-        <p className="participantInstructions">
-          Participant instructions in yellow
+        <p className="speakerInstructions">
+          Speaker info in blue (and dark mode)
         </p>
-        <p className="bothInstructions"> Both instructions in green</p>
+        <p className="participantInstructions">
+          Participant info in yellow (and light mode)
+        </p>
+        <p className="bothInstructions"> Both users info in green</p>
       </div>
       <a
         href="https://engagemate.netlify.app/"
