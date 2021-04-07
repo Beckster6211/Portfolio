@@ -52,12 +52,12 @@ function EngageMate() {
           title="EngageMate Opening Page"
         />
       </a>
-      <h4>
+      <h4 className="linkHeading">
         How to use:
         <br></br>
         (Just click the picture or the link to go to the site in a new window)
-        <br></br>
         <a
+          className="linkHeading"
           href="https://engagemate.netlify.app/"
           target="_blank"
           rel="noreferrer"
