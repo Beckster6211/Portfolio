@@ -31,6 +31,13 @@ function EngageMate() {
         that would in real time, making it difficult to gauge audience
         understanding.
       </p>
+      <div className="instructionColours">
+        <p className="speakerInstructions">Speaker instructions in blue</p>
+        <p className="participantInstructions">
+          Participant instructions in yellow
+        </p>
+        <p className="bothInstructions"> Both instructions in green</p>
+      </div>
       <a
         href="https://engagemate.netlify.app/"
         target="_blank"
@@ -43,7 +50,7 @@ function EngageMate() {
           title="EngageMate Opening Page"
         />
       </a>
-      <h3>
+      <h4>
         How to use:
         <br></br>
         (Just click the picture or the link to go to the site in a new window)
@@ -56,7 +63,7 @@ function EngageMate() {
           <br></br>
           https://engagemate.netlify.app
         </a>
-      </h3>
+      </h4>
       <img
         className="featureMenuPhoto"
         src="./skfm.PNG"
