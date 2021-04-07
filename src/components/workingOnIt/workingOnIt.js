@@ -1,6 +1,7 @@
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./working.css";
 import Favourites from "../favourites/favourites";
 
 function WorkingOnIt() {
@@ -15,8 +16,8 @@ function WorkingOnIt() {
           variant="light"
         >
           <Link to="workinprogress">
-            <ReactBootStrap.Navbar.Brand>
-              Needs improving (or fixing)
+            <ReactBootStrap.Navbar.Brand className="workingNavbar">
+              Improving/fixing...
             </ReactBootStrap.Navbar.Brand>
           </Link>
           <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -51,14 +52,14 @@ function WorkingOnIt() {
           <h2>Not quite there yet...</h2>
           <p>
             The goal is to have lots of things in here that I can go back to as
-            I gain experience and knowledge 😁 and move to complete
+            I gain experience and knowledge 😁 then move to complete
           </p>
           <p>💂‍♀️ "No project gets left behind" 💂‍♀️</p>
           <p>
             (Hopefully this will get longer and then shorter, a yoyo approach
             🪀)
           </p>
-          <h2>The Biggest Work in Progress - My Portfolio</h2>
+          <h2>The Biggest Work in Progress - My Portfolio 👍</h2>
         </div>
       </Router>
     </div>

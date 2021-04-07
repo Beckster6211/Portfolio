@@ -1,0 +1,30 @@
+.completeHomePage {
+  min-height: 100vh;
+  background-image: url("./image.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.completeText {
+  font-weight: 500;
+  color: white;
+}
+
+.completeNavbar {
+  font-size: 1rem;
+  width: fit-content;
+}
+
+.mission {
+  width: 40%;
+  height: auto;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .completeHomePage {
+    min-height: 100vh;
+    background-image: url("./image.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}

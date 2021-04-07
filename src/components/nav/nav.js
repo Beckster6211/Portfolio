@@ -12,8 +12,9 @@ import WorkingOnIt from "../workingOnIt/workingOnIt";
 function Nav() {
   return (
     <Router>
-      <div className="navbar">
+      <div>
         <ReactBootStrap.Navbar
+          className="navbar"
           collapseOnSelect
           expand="xl"
           bg="info"
