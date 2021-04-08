@@ -130,8 +130,17 @@ For general app construction
 
 For app navigation and additonal css
 <br></br>
-<img src = "./public/images/download.png" width = "20%" height = "20%"/>
+<img src = "./public/download.png" width = "20%" height = "20%"/>
 
 <ul>
     <li>Bootstrap </li>
 </ul>
+
+## What to see? :eyes:
+
+If you want to see you can open a localHost version by typing "npm run start" in the terminal
+<br>
+
+### Or a deployed version :computer:
+
+https://becky-jones-portfolio.netlify.app/
