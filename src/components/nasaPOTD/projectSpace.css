@@ -4,17 +4,22 @@
   background-image: url("./2c37538ad1d9a09852c9ec8638c5fa8b.png");
 }
 
+.mainHeading {
+  font-size: 2.7rem;
+}
+
 .spaceByPhotos {
-  width: 150px;
+  width: 20%;
   height: auto;
   display: inline;
   padding: 1%;
 }
 
 .sitePictures {
-  display: inline;
-  width: 300px;
-  height: 300px;
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  padding: 1%;
 }
 
 .spaceText {
@@ -23,4 +28,38 @@
   text-align: center;
   display: inline-block;
   color: white;
+  font-size: 1.2rem;
+}
+
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .mainHeading {
+    font-size: 1.4rem;
+  }
+  .spaceText {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 0.8rem;
+  }
+  .linkHeading {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .sitePictures {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    padding: 1%;
+  }
 }
