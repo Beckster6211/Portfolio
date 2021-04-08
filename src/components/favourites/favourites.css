@@ -2,12 +2,16 @@
   /* background-color: tomato; */
   background-image: url("./gold-silver-bronze-trophy-cup-goblet-podium-pedestal-isolated-white-1st-2nd-3rd-place_180264-5.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
+  /* background-position: center; */
+}
+
+.mainHeading {
+  font-size: 2.7rem;
 }
 
 .favouritesByPhoto {
-  width: 150px;
+  width: 20%;
   height: auto;
   display: inline;
   padding: 1%;
@@ -18,11 +22,48 @@
   padding: 1%;
   text-align: center;
   color: black;
-  font-size: 1em;
+  font-size: 1.2rem;
 }
 
 .favouriteSitePicture {
   display: inline;
-  width: 50%;
+  width: 70%;
   height: auto;
+}
+
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: red;
+}
+
+.starsImage {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .mainHeading {
+    font-size: 1.4rem;
+  }
+  .favouriteText {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    color: black;
+    font-size: 0.8rem;
+  }
+  .linkHeading {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .favouriteSitePicture {
+    display: inline;
+    width: 80%;
+    height: auto;
+  }
 }

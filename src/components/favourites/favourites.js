@@ -27,12 +27,13 @@ function Favourites() {
           alt="Favourite Home Page"
         />
       </a>
-      <h3>
+      <h4 className="linkHeading">
         How to use:
         <br></br>
         (Just click the picture or the link to go to the site in a new window)
         <br></br>
         <a
+          className="linkHeading"
           href="https://blj-my-favourites.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -40,7 +41,7 @@ function Favourites() {
           <br></br>
           https://blj-my-favourites.netlify.app/
         </a>
-      </h3>
+      </h4>
       <p className="favouriteText">
         On the site there will be a navigation bar that you can use to go
         different pages.
@@ -55,6 +56,11 @@ function Favourites() {
         👀 You can have a look but be gentle please 🥺
       </p>
       <br></br>
+      <img
+        className="starsImage"
+        src="https://lh3.googleusercontent.com/proxy/zDrIughLVkd2hA9BeA-TVa7PJ6XcFf27QqJzVDGUAinyk405i8XRD1RNISTNaVc4N9pKeU-yDZmZ_dDNiiL64RHsNTliAWz0xGE_ftwOo8O0NVdmvNIixQ"
+        alt="5 stars"
+      />
     </div>
   );
 }
