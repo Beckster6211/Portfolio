@@ -1,0 +1,80 @@
+.canvasDrawing {
+  background-image: url("./stressReliefBackground.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mainHeading {
+  font-size: 2.7rem;
+}
+
+.canvasByPhoto {
+  width: 20%;
+  height: auto;
+  display: inline;
+  padding: 1%;
+}
+
+.canvasText {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.canvasOpeningPage {
+  display: inline;
+  width: auto;
+  height: 60%;
+}
+
+.canvasExample {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  padding: 1%;
+}
+
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: black;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .mainHeading {
+    font-size: 1.4rem;
+  }
+  .canvasText {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    color: black;
+    font-size: 0.8rem;
+  }
+  .canvasOpeningPage {
+    display: inline;
+    width: 70%;
+    height: auto;
+  }
+  .linkHeading {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .canvasExample {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    padding: 1%;
+  }
+  .favouriteSitePicture {
+    display: inline;
+    width: 80%;
+    height: auto;
+  }
+}
