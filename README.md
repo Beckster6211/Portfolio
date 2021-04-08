@@ -71,6 +71,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Portfolio
 
-## Becky Jones
+## Becky Jones <img src = "./public/blj.PNG" width = "20%" height = "auto"/>
 
-<img src = "./public/blj.PNG" width = "20%" height = "auto"/>
+This is my portfolio. I have separated it into different sections.
+
+### Home
+
+The home page just staes a little bit about myself
+
+<ul>
+<li>Nicknames</li>
+<li>Hobbies and Interests</li>
+<li>Loves of my life</li>
+</ul>
+You could probably get alot of that from my github profile page....
+
+###### (You can skip the home page)
