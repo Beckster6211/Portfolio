@@ -79,7 +79,7 @@ I have separated it into different sections that can be navigated through the na
 
 ### Home
 
-<img src = "./public/portfolioHome.PNG" width = "20%" height = "auto"/>
+<img src = "./public/portfolioHome.PNG" width = "50%" height = "auto"/>
 
 The home page just states a little bit about myself and has links to my github page (which if your reading this you are probably already on...) and also my linkedIn page.
 
@@ -94,7 +94,7 @@ You could probably get alot of that from my github profile page....
 
 ### Complete ✔️
 
-<img src = "./public/portfoliocomplete.PNG" width = "20%" height = "auto"/>
+<img src = "./public/portfoliocomplete.PNG" width = "50%" height = "auto"/>
 
 Complete button navigates you to a page were a navbar is located that can take you to the projects that I have completed.
 <br</br>
@@ -104,7 +104,7 @@ Although I don't think complete projects are genuinely "done" 😉
 
 ### Work in progress 👷
 
-<img src = "./public/portfolioworkinprogress.PNG" width = "20%" height = "auto"/>
+<img src = "./public/portfolioworkinprogress.PNG" width = "50%" height = "auto"/>
 
 Work in progress button navigates you to a page were a navbar is located that can take you to the projects that are (as the name suggests) works in progress.
 <br></br>
@@ -113,3 +113,25 @@ Once on those pages it has information and pictures about the project. This may 
 The work may be that the projects have got some bugs, the projects themselves may decide when to work 😉 or even some css snags.
 <br></br>
 I have created the pages like this as I don't want to forget projects or give up on them, having them in an avaliable place I'm hoping 🤞 means that I can reflect on them.
+
+## What I used 🛠️
+
+For general app construction
+<br></br>
+<img src = "./public/1280px-React-icon.svg (1).png" width = "20%" height = "auto"/>
+
+<ul>
+    <li>React </li>
+        <ul>
+        <li>React Dom</li>
+        <li>React Router Dom</li>
+    </ul>
+ </ul>
+
+For app navigation and additonal css
+<br></br>
+<img src = "./public/images/download.png" width = "20%" height = "20%"/>
+
+<ul>
+    <li>Bootstrap </li>
+</ul>
