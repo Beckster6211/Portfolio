@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Portfolio
 
 ## Becky Jones
+
+<img src = "./public/blj.PNG" width = "20%" height = "auto"/>
