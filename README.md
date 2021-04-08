@@ -73,11 +73,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Becky Jones <img src = "./public/blj.PNG" width = "20%" height = "auto"/>
 
-This is my portfolio. I have separated it into different sections.
+This is my portfolio.
+<br></br>
+I have separated it into different sections that can be navigated through the navbar (and buttons inside the navbar).
 
 ### Home
 
-The home page just staes a little bit about myself
+<img src = "./public/portfolioHome.PNG" width = "20%" height = "auto"/>
+
+The home page just states a little bit about myself and has links to my github page (which if your reading this you are probably already on...) and also my linkedIn page.
 
 <ul>
 <li>Nicknames</li>
@@ -87,3 +91,25 @@ The home page just staes a little bit about myself
 You could probably get alot of that from my github profile page....
 
 ###### (You can skip the home page)
+
+### Complete ✔️
+
+<img src = "./public/portfoliocomplete.PNG" width = "20%" height = "auto"/>
+
+Complete button navigates you to a page were a navbar is located that can take you to the projects that I have completed.
+<br</br>
+Once on those pages it has information and pictures about the project. This may be about creating the project, the why or even how to maneuver around the projects site (getting to site is provided with a picture and a text link).
+<br></br>
+Although I don't think complete projects are genuinely "done" 😉
+
+### Work in progress 👷
+
+<img src = "./public/portfolioworkinprogress.PNG" width = "20%" height = "auto"/>
+
+Work in progress button navigates you to a page were a navbar is located that can take you to the projects that are (as the name suggests) works in progress.
+<br></br>
+Once on those pages it has information and pictures about the project. This may be about creating the project, the why or even how to maneuver around the projects site (getting to site is provided with a picture and a text link).
+<br></br>
+The work may be that the projects have got some bugs, the projects themselves may decide when to work 😉 or even some css snags.
+<br></br>
+I have created the pages like this as I don't want to forget projects or give up on them, having them in an avaliable place I'm hoping 🤞 means that I can reflect on them.
