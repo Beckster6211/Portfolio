@@ -2,17 +2,17 @@
   background-color: cornsilk;
 }
 
+.plusMentorLogo {
+  width: 50%;
+  height: auto;
+}
+
 .plusmentorByPhotos {
-  width: 150px;
+  width: 20%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
-}
-
-.plusMentorLogo {
-  width: 50vw;
-  height: auto;
 }
 
 .plusMentorOpeningPage {
@@ -38,11 +38,49 @@
   text-align: center;
   display: inline-block;
   color: black;
+  font-size: 1.2rem;
 }
 
 .plusMentorPage {
   color: black;
-  font-size: 3vh;
+  font-size: 1.7rem;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 550px) and (orientation: portrait) {
+  .plusMentorText {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    font-size: 0.8rem;
+  }
+  .linkHeading {
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .plusMentorPage {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .plusMentorPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1%;
+  }
 }

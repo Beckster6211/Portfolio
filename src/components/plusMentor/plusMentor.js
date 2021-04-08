@@ -65,12 +65,13 @@ function PlusMentor() {
           alt="plusMentor Your Sessions Page"
         /> */}
       </a>
-      <h3>
+      <h4 className="linkHeading">
         How to use:
         <br></br>
         (Just click the picture or the link to go to the site in a new window)
         <br></br>
         <a
+          className="linkHeading"
           href="https://plusmentor.netlify.app/"
           target="_blank"
           rel="noreferrer"
@@ -78,9 +79,9 @@ function PlusMentor() {
           <br></br>
           https://plusMentor.netlify.app
         </a>
-      </h3>
+      </h4>
+      <p className="plusMentorPage">Log In</p>
       <p className="plusMentorText">
-        <p className="plusMentorPage">Log In</p>
         To access log in to the app, if you have an account press the `Log In`
         button and input your email and password.
       </p>
