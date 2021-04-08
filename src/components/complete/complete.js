@@ -6,6 +6,7 @@ import CompleteHomePage from "./index";
 import EngageMate from "../engageMate/engageMate";
 import PlusMentor from "../plusMentor/plusMentor";
 import SpaceProject from "../nasaPOTD/projectSpace";
+import CanvasDrawing from "../canvasDrawings/canvasDrawings";
 function Complete() {
   return (
     <div>
@@ -39,10 +40,18 @@ function Complete() {
                   Nasa POTD
                 </ReactBootStrap.Nav.Link>
               </Link>
+              <Link to="/canvasdrawing">
+                <ReactBootStrap.Nav.Link href="/canvasdrawing">
+                  My Stress Relief
+                </ReactBootStrap.Nav.Link>
+              </Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/canvasdrawing">
+            <CanvasDrawing />
+          </Route>
           <Route path="/engagemate">
             <EngageMate />
           </Route>

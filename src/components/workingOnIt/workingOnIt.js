@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./working.css";
 import CompleteWorkingPage from "./index";
 import Favourites from "../favourites/favourites";
+import CanvasDrawing from "../canvasDrawings/canvasDrawings";
 
 function WorkingOnIt() {
   return (
@@ -28,10 +29,18 @@ function WorkingOnIt() {
                   Favourites
                 </ReactBootStrap.Nav.Link>
               </Link>
+              <Link to="/canvasdrawing">
+                <ReactBootStrap.Nav.Link href="/canvasdrawing">
+                  My Stress Relief
+                </ReactBootStrap.Nav.Link>
+              </Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/canvasdrawing">
+            <CanvasDrawing />
+          </Route>
           <Route path="/favourite">
             <Favourites />
           </Route>
