@@ -7,6 +7,7 @@ import EngageMate from "../engageMate/engageMate";
 import PlusMentor from "../plusMentor/plusMentor";
 import SpaceProject from "../nasaPOTD/projectSpace";
 import CanvasDrawing from "../canvasDrawings/canvasDrawings";
+import FinleyStories from "../finleyStories/finleyStories";
 function Complete() {
   return (
     <div>
@@ -45,10 +46,18 @@ function Complete() {
                   My Stress Relief
                 </ReactBootStrap.Nav.Link>
               </Link>
+              <Link to="/finleystories">
+                <ReactBootStrap.Nav.Link href="/finleystories">
+                  Finley Stories
+                </ReactBootStrap.Nav.Link>
+              </Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/finleystories">
+            <FinleyStories />
+          </Route>
           <Route path="/canvasdrawing">
             <CanvasDrawing />
           </Route>

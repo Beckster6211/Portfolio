@@ -1,0 +1,60 @@
+.projectFinley {
+  min-height: 100vh;
+  padding: 1%;
+  color: black;
+  background-color: green;
+  /* background-image: url("./istockphoto-955916008-170667a.jpg"); */
+}
+
+.mainHeading {
+  font-size: 2.7rem;
+  /* font-weight: 800; */
+}
+
+.finleyByPhotos {
+  width: 20%;
+  height: auto;
+  display: inline;
+  padding: 1%;
+}
+
+.finleyText {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  font-size: 1.2rem;
+  /* font-weight: 900; */
+}
+
+.sitePictures {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  /* border: solid;
+  border-color: black; */
+}
+
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.finleyPages {
+  color: black;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.finleySite {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+}
