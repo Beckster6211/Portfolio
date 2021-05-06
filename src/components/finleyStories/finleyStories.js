@@ -85,30 +85,3 @@ function FinleyStories() {
 }
 
 export default FinleyStories;
-
-// function SpaceProject() {
-//   return (
-//     <div className="projectSpace">
-//       <p className="spaceText">
-//         On the site you will be presented with a calendar drop down, using this
-//         you can select a date. Dates shown monthly with an up and down arrow (on
-//         the top right hand side) allowing you to toggle through the months, you
-//         can also browse through years by selecting the month and year on the top
-//         left. (You can get back to the current date by clicking "Today" in the
-//         bottom right). When a date has been selected you are presented with the
-//         picture of the day for that day as well as a heading of what the picture
-//         is and a description detailing the photo.<br></br>
-//         <br></br>
-//         📆 If your born after 16th June 1995 (earliest that can go back) you can
-//         get Nasa's picture of the day on the day you were born... (pretty cool,
-//         I'm to old though... 😭)
-//         <br></br>
-//         <br></br>
-//         There is also a couple of extra cool things like iconic nasa pictures
-//         and also links to youtube clips of the moon landing.
-//       </p>
-//     </div>
-//   );
-// }
-
-// export default SpaceProject;
