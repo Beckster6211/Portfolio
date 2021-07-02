@@ -8,6 +8,8 @@ import PlusMentor from "../plusMentor/plusMentor";
 import SpaceProject from "../nasaPOTD/projectSpace";
 import CanvasDrawing from "../canvasDrawings/canvasDrawings";
 import FinleyStories from "../finleyStories/finleyStories";
+import EvolutionRPS from "../evolutionRPS/evolutionRps";
+
 function Complete() {
   return (
     <div>
@@ -51,10 +53,18 @@ function Complete() {
                   Finley Stories
                 </ReactBootStrap.Nav.Link>
               </Link>
+              <Link to="/evorps">
+                <ReactBootStrap.Nav.Link href="/finleystories">
+                  Evolution of Rock Paper Scissors
+                </ReactBootStrap.Nav.Link>
+              </Link>
             </ReactBootStrap.Nav>
           </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
         <Switch>
+          <Route path="/evorps">
+            <EvolutionRPS />
+          </Route>
           <Route path="/finleystories">
             <FinleyStories />
           </Route>

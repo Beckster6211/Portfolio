@@ -1,0 +1,61 @@
+.projectEvoRps {
+  min-height: 100vh;
+  padding: 1%;
+  color: black;
+  background-color: chocolate;
+  /* background-image: url("https://s3.amazonaws.com/lowres.cartoonstock.com/history-cavemen-prehistoric-rock-scissors-neanderthal-rmon4172_low.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+.mainHeading {
+  font-size: 2.7rem;
+  /* font-weight: 800; */
+}
+
+.evoRpsByPhotos {
+  width: 20%;
+  height: auto;
+  display: inline;
+  padding: 1%;
+}
+
+.evoRpsText {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.sitePictures {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+  /* border: solid;
+    border-color: black; */
+}
+
+.linkHeading {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.evoRpsPages {
+  color: black;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.evoRpsSite {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  padding: 1%;
+}
